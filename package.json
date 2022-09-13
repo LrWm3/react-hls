@@ -1,5 +1,5 @@
 {
-  "name": "react-hls-player",
+  "name": "@marcosalberto/react-hls-player",
   "version": "4.0.1",
   "description": "A simple and easy to use react component for playing an hls live stream",
   "main": "./dist/index.js",
@@ -56,5 +56,8 @@
     "webpack-cli": "^4.5.0",
     "webpack-dev-server": "^3.11.0",
     "webpack-merge": "^5.0.9"
+  },
+  "directories": {
+    "example": "example"
   }
 }
