@@ -1,9 +1,13 @@
 # React HLS Player
 
-![NPM Downloads](https://img.shields.io/npm/dm/react-hls-player?style=flat-square)
+![NPM Downloads](https://img.shields.io/npm/dm/@marcosalberto/react-hls-player?style=flat-square)
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
-![Libraries.io dependency status for latest release](https://img.shields.io/librariesio/release/npm/react-hls-player)
-![npm bundle size](https://img.shields.io/bundlephobia/min/react-hls-player)
+![Libraries.io dependency status for latest release](https://img.shields.io/librariesio/release/npm/@marcosalberto/react-hls-player)
+![npm bundle size](https://img.shields.io/bundlephobia/min/@marcosalberto/react-hls-player)
+
+## Fork
+
+This fork was made to update the hls.js version to a newer one, its using the 1.2.3
 
 ## Introduction
 
@@ -17,7 +21,7 @@ It uses [hls.js](https://github.com/video-dev/hls.js) to play your hls live stre
 ```javascript
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ReactHlsPlayer from 'react-hls-player';
+import ReactHlsPlayer from '@marcosalberto/react-hls-player';
 
 ReactDOM.render(
   <ReactHlsPlayer
@@ -38,7 +42,7 @@ All available config properties can be found on the [Fine Tuning](https://github
 ```javascript
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ReactHlsPlayer from 'react-hls-player';
+import ReactHlsPlayer from '@marcosalberto/react-hls-player';
 
 ReactDOM.render(
   <ReactHlsPlayer
@@ -59,7 +63,7 @@ The `playerRef` returns a ref to the underlying video component, and as such wil
 
 ```javascript
 import React from 'react';
-import ReactHlsPlayer from 'react-hls-player';
+import ReactHlsPlayer from '@marcosalberto/react-hls-player';
 
 function MyCustomComponent() {
   const playerRef = React.useRef();
@@ -91,7 +95,7 @@ You can also listen to events of the video
 
 ```javascript
 import React from 'react';
-import ReactHlsPlayer from 'react-hls-player';
+import ReactHlsPlayer from '@marcosalberto/react-hls-player';
 
 function MyCustomComponent() {
   const playerRef = React.useRef();
