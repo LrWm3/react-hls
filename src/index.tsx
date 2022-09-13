@@ -3,7 +3,7 @@ import Hls, { HlsConfig } from 'hls.js';
 
 export interface HlsPlayerProps
   extends React.VideoHTMLAttributes<HTMLVideoElement> {
-  hlsConfig?: HlsConfig;
+  hlsConfig?: Partial<HlsConfig>;
   playerRef: RefObject<HTMLVideoElement>;
   src: string;
 }
